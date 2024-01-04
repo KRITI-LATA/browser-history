@@ -1,0 +1,53 @@
+.history-list {
+  display: flex;
+  height: auto;
+  width: auto;
+  font-family: 'Roboto';
+}
+.history-list-card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-text {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: bold;
+}
+.history-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-left: 6%;
+}
+.logo {
+  width: 40px;
+  height: auto;
+  padding: 2px;
+  padding-right: 10px;
+}
+.history-title {
+  color: #475569;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.domain-title {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.delete-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.delete-btn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
